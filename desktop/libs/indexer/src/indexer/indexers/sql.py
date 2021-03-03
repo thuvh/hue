@@ -57,7 +57,7 @@ class SQLIndexer(object):
     self.fs = fs
     self.user = user
 
-  def create_table_from_a_file(self, source, destination, start_time=-1):
+  def create_table_from_a_file(self, source, destination, start_time=-1, file_encoding=None):
     if '.' in destination['name']:
       database, table_name = destination['name'].split('.', 1)
     else:
@@ -126,6 +126,11 @@ class SQLIndexer(object):
     "quoteChar"     = "%(quoteChar)s",
     "escapeChar"    = "\\\\"
     ''' % source['format']
+    #   if file_encoding and file_encoding != 'ASCII':
+    #       if serde_properties:
+    #           serde_properties += ',\n'
+    #       serde_properties +=  '''
+    # "serialization.encoding"="%s"''' % file_encoding
 
     use_temp_table = table_format in ('parquet', 'orc', 'kudu') or is_transactional
     if use_temp_table: # We'll be using a temp table to load data
@@ -249,6 +254,13 @@ class SQLIndexer(object):
           'database': database,
           'table_name': table_name
       }
+      if file_encoding and file_encoding != 'ASCII':
+        sql += '\n\nALTER TABLE `%(database)s`.`%(final_table_name)s` ' \
+               'SET serdeproperties ("serialization.encoding"="%(file_encoding)s");' % {
+            'database': database,
+            'final_table_name': final_table_name,
+            'file_encoding': file_encoding
+        }
 
     on_success_url = reverse(
         'metastore:describe_table', kwargs={'database': database, 'table': final_table_name}
@@ -303,8 +315,8 @@ def _create_database(request, source, destination, start_time):
   return notebook.execute(request, batch=False)
 
 
-def _create_table(request, source, destination, start_time=-1):
-  notebook = SQLIndexer(user=request.user, fs=request.fs).create_table_from_a_file(source, destination, start_time)
+def _create_table(request, source, destination, start_time=-1, file_encoding=None):
+  notebook = SQLIndexer(user=request.user, fs=request.fs).create_table_from_a_file(source, destination, start_time, file_encoding)
 
   if request.POST.get('show_command'):
     return {'status': 0, 'commands': notebook.get_str()}
