@@ -17,7 +17,7 @@
 
 import logging
 
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 from desktop.lib.conf import Config, ConfigSection, coerce_bool
 

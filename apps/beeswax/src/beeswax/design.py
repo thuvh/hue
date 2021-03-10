@@ -31,7 +31,7 @@ import urllib.parse
 import django.http
 from django import forms
 from django.forms import ValidationError
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from notebook.sql_utils import split_statements, strip_trailing_semicolon
 from desktop.lib.django_forms import BaseSimpleFormSet, MultiForm

@@ -29,7 +29,7 @@
   import time
 
   from django.template.defaultfilters import date, time as dtime
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 
   from desktop.lib.view_util import format_duration_in_millis
   from hadoop.fs.hadoopfs import Hdfs

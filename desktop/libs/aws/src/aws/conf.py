@@ -21,7 +21,7 @@ import re
 
 
 import requests
-from django.utils.translation import ugettext_lazy as _, ugettext as _t
+from django.utils.translation import gettext_lazy as _, gettext as _t
 
 from desktop.lib.conf import Config, UnspecifiedConfigSection, ConfigSection, coerce_bool, coerce_password_from_script
 from desktop.lib.idbroker import conf as conf_idbroker

@@ -28,7 +28,7 @@ import urllib.request, urllib.parse, urllib.error
 from django.forms.formsets import formset_factory
 from django.http import HttpResponse
 from django.utils.functional import wraps
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.urls import reverse
 from django.shortcuts import redirect
 

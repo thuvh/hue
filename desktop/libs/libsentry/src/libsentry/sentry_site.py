@@ -20,7 +20,7 @@ import logging
 import os.path
 import random
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from hadoop import confparse
 

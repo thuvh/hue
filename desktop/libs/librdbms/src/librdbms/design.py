@@ -24,7 +24,7 @@ import json
 import logging
 
 import django.http
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from beeswax.design import normalize_form_dict, denormalize_form_dict, split_statements
 from notebook.sql_utils import strip_trailing_semicolon

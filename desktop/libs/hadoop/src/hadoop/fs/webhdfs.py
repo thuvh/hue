@@ -33,7 +33,7 @@ import time
 import urllib.request, urllib.error
 
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 import hadoop.conf
 import desktop.conf

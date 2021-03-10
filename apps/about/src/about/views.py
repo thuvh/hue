@@ -18,7 +18,7 @@
 from builtins import str
 import logging
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop import appmanager
 from desktop.auth.backend import is_hue_admin

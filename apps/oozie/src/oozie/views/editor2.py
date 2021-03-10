@@ -23,7 +23,7 @@ from datetime import datetime
 from django.urls import reverse
 from django.forms.formsets import formset_factory
 from django.shortcuts import redirect
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import USE_NEW_EDITOR, IS_MULTICLUSTER_ONLY
 from desktop.lib import django_mako

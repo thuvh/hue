@@ -23,7 +23,7 @@ from importlib import import_module
 
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
-from django.utils.translation import ugettext_lazy as _t, ugettext as _
+from django.utils.translation import gettext_lazy as _t, gettext as _
 from beeswax.models import SavedQuery
 from beeswax.models import Session
 from datetime import date, timedelta

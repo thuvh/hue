@@ -20,7 +20,7 @@ import logging
 from logging import exception
 
 from datetime import datetime
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from beeswax.models import QueryHistory
 from desktop.lib.exceptions_renderable import PopupException

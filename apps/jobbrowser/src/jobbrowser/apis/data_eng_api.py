@@ -19,7 +19,7 @@ import logging
 
 from datetime import datetime,  timedelta
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from notebook.connectors.altus import DataEngApi, DATE_FORMAT
 

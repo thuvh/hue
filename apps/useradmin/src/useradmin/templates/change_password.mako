@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
 from desktop.views import commonheader, commonfooter
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from useradmin.hue_password_policy import is_password_policy_enabled, get_password_hint
 %>
 

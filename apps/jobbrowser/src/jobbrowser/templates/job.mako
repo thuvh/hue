@@ -23,7 +23,7 @@
   from desktop.lib.view_util import location_to_url
   from desktop.views import commonheader, commonfooter
   from django.template.defaultfilters import urlencode
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
   from six import iteritems
 %>
 <%def name="task_table(dom_id, tasks)">

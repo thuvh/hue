@@ -17,7 +17,7 @@
 
 from builtins import chr
 from django import forms
-from django.utils.translation import ugettext as _, ugettext_lazy as _t
+from django.utils.translation import gettext as _, gettext_lazy as _t
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.forms import NumberInput
 

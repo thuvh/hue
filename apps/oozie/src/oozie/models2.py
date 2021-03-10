@@ -35,7 +35,7 @@ from xml.sax.saxutils import escape
 
 from django.urls import reverse
 from django.db.models import Q
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import USE_DEFAULT_CONFIGURATION
 from desktop.lib import django_mako

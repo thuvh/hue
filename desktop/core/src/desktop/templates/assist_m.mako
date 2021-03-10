@@ -16,7 +16,7 @@
 <%!
 from desktop import conf
 from desktop.views import commonheader_m, commonfooter_m
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 ${ commonheader_m(_('Assist'), 'assist', user, request) | n,unicode }

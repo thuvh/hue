@@ -24,7 +24,7 @@ import time
 import subprocess
 
 from django.core.management.base import BaseCommand, CommandError
-from django.utils.translation import ugettext_lazy as _t, ugettext as _
+from django.utils.translation import gettext_lazy as _t, gettext as _
 
 import desktop.conf
 from desktop.conf import TIME_ZONE

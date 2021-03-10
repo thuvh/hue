@@ -18,7 +18,7 @@
 from crequest.middleware import CrequestMiddleware
 
 from django.db import connection, models, transaction
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 from desktop.conf import ENABLE_ORGANIZATIONS, ENABLE_CONNECTORS
 from desktop.lib.connectors.models import Connector

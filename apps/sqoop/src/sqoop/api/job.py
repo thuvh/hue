@@ -20,7 +20,7 @@ import json
 import logging
 
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.views.decorators.cache import never_cache
 
 from sqoop import client, conf

@@ -21,7 +21,7 @@ import logging
 import posixpath
 import threading
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import DEFAULT_USER
 from desktop.lib.exceptions_renderable import PopupException

@@ -15,7 +15,7 @@
 ## limitations under the License.
 
 <%!
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
   from liboozie.oozie_api import get_oozie
   from desktop.views import _ko
 %>

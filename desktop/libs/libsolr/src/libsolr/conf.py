@@ -20,7 +20,7 @@ standard_library.install_aliases()
 import logging
 import sys
 
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 from desktop.lib.conf import Config, coerce_bool
 from desktop.conf import default_ssl_validate

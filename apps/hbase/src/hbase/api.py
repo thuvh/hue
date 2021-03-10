@@ -22,7 +22,7 @@ import logging
 import re
 import csv
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.utils.encoding import smart_str
 
 from desktop.lib import thrift_util

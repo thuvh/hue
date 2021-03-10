@@ -30,7 +30,7 @@ from django.shortcuts import redirect
 from django.template.defaultfilters import strip_tags
 from functools import partial
 from django.utils.http import http_date
-from django.utils.translation import ugettext as _, activate as activate_translation
+from django.utils.translation import gettext as _, activate as activate_translation
 
 from desktop.lib.django_util import JsonResponse, render, extract_field_data
 from desktop.lib.exceptions_renderable import PopupException

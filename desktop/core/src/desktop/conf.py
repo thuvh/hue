@@ -27,7 +27,7 @@ import sys
 from collections import OrderedDict
 
 from django.db import connection
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from metadata.metadata_sites import get_navigator_audit_log_dir, get_navigator_audit_max_file_size
 

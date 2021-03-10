@@ -18,7 +18,7 @@
 import json
 import logging
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import CONNECTORS_BLACKLIST, CONNECTORS_WHITELIST
 from desktop.lib.exceptions_renderable import PopupException

@@ -22,7 +22,7 @@ import logging
 import sys
 import uuid
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import ENABLE_DOWNLOAD
 from desktop.lib.django_util import JsonResponse

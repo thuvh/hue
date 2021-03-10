@@ -33,7 +33,7 @@ else:
 
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.core.files.uploadhandler import FileUploadHandler, SkipFile, StopFutureHandlers, StopUpload, UploadFileException
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.fsmanager import get_client
 from aws.s3 import parse_uri

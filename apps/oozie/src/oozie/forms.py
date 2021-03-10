@@ -24,7 +24,7 @@ from django import forms
 from django.core.exceptions import ValidationError
 from django.forms.widgets import TextInput
 from functools import partial
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 from desktop.lib.django_forms import MultiForm, SplitDateTimeWidget
 from desktop.models import Document

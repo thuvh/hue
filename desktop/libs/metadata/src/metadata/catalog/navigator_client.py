@@ -23,7 +23,7 @@ import re
 from itertools import islice
 
 from django.core.cache import cache
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.rest import resource
 from desktop.lib.rest.unsecure_http_client import UnsecureHttpClient

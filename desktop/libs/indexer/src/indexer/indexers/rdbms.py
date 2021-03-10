@@ -20,7 +20,7 @@ import logging
 import uuid
 
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from librdbms.conf import DATABASES, get_database_password, get_server_choices, get_connector_name
 from librdbms.jdbc import Jdbc

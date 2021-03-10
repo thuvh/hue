@@ -18,7 +18,7 @@
 import os
 import sys
 
-from django.utils.translation import ugettext as _, ugettext_lazy as _t
+from django.utils.translation import gettext as _, gettext_lazy as _t
 
 from desktop.lib.conf import Config
 from liboozie.conf import get_oozie_status

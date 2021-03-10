@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
 from desktop.views import commonheader, commonfooter, commonshare, _ko
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 <%namespace name="dashboard" file="/common_dashboard.mako" />

@@ -21,7 +21,7 @@
 <%!
   import re
   import sys
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 
   if sys.version_info[0] > 2:
     unicode = str

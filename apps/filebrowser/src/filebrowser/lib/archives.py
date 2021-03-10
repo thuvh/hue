@@ -27,7 +27,7 @@ import tarfile
 import tempfile
 
 from desktop.lib.exceptions_renderable import PopupException
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from filebrowser.conf import ARCHIVE_UPLOAD_TEMPDIR
 from zipfile import ZipFile
 

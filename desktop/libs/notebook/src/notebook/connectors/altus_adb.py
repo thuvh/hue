@@ -23,7 +23,7 @@ import json
 import sys
 
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from notebook.connectors.altus import AnalyticDbApi
 from notebook.connectors.base import Api, QueryError

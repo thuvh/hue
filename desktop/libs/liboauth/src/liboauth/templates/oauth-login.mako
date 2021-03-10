@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
 from desktop import conf
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 <!DOCTYPE html>
 <html lang="en">

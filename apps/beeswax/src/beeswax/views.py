@@ -29,7 +29,7 @@ from django.db.models import Q
 from django.http import HttpResponse, QueryDict
 from django.shortcuts import redirect
 from django.utils.html import escape
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.urls import reverse
 
 from desktop.appmanager import get_apps_dict

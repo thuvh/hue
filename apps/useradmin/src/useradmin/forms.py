@@ -23,7 +23,7 @@ import django.contrib.auth.forms
 from django import forms
 from django.forms import ValidationError
 from django.forms.utils import ErrorList
-from django.utils.translation import get_language, ugettext as _, ugettext_lazy as _t
+from django.utils.translation import get_language, gettext as _, gettext_lazy as _t
 
 from desktop import conf as desktop_conf
 from desktop.conf import ENABLE_ORGANIZATIONS

@@ -17,7 +17,7 @@
   from desktop import conf
   from desktop.views import _ko, antixss
   from desktop.webpack_utils import get_hue_bundles
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
   from metadata.conf import OPTIMIZER
   from notebook.conf import ENABLE_QUERY_SCHEDULING, ENABLE_EXTERNAL_STATEMENT, ENABLE_PRESENTATION
   from webpack_loader.templatetags.webpack_loader import render_bundle

@@ -19,7 +19,7 @@
   from django.template.defaultfilters import urlencode, stringformat, date, filesizeformat, time
   from filebrowser.views import truncate
   from desktop.views import commonheader, commonfooter
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 %>
 
 <%

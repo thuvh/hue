@@ -17,7 +17,7 @@
 from desktop import conf
 from desktop.lib.i18n import smart_unicode
 from desktop.webpack_utils import get_hue_bundles
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from metadata.conf import has_optimizer, OPTIMIZER
 
 home_url = url('desktop_views_home')

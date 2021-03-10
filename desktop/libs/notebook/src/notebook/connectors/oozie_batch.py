@@ -21,7 +21,7 @@ import time
 
 from django.urls import reverse
 from django.http import QueryDict
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.exceptions_renderable import PopupException
 from desktop.models import Document2

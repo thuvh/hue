@@ -20,7 +20,7 @@ import logging
 import os
 import subprocess
 
-from django.utils.translation import ugettext_lazy as _t, ugettext as _
+from django.utils.translation import gettext_lazy as _t, gettext as _
 
 from desktop.lib.conf import Config, coerce_bool, coerce_csv, coerce_password_from_script
 

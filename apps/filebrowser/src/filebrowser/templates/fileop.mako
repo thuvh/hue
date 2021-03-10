@@ -18,7 +18,7 @@ import datetime
 from django import forms
 from django.template.defaultfilters import urlencode, escape, stringformat, date, filesizeformat, time
 from desktop.views import commonheader, commonfooter
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 

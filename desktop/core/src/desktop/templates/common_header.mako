@@ -14,7 +14,7 @@
 ## See the License for the specific language governing permissions and
 ## limitations under the License.
 <%!
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from webpack_loader.templatetags.webpack_loader import render_bundle
 
 from metadata.conf import has_optimizer, OPTIMIZER

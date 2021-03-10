@@ -19,7 +19,7 @@
 import logging
 
 from django.core.management.base import CommandError, BaseCommand
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from useradmin.models import User
 

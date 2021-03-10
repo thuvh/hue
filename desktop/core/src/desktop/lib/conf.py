@@ -79,7 +79,7 @@ import subprocess
 import sys
 
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 from configobj import ConfigObj, ConfigObjError
 
 from desktop.lib.paths import get_desktop_root, get_build_dir

@@ -49,7 +49,7 @@ from django.contrib.auth import models as auth_models
 from django.contrib.auth.models import AbstractUser, BaseUserManager
 from django.core.cache import cache
 from django.utils import timezone as dtz
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 from desktop import appmanager
 from desktop.conf import ENABLE_ORGANIZATIONS, ENABLE_CONNECTORS

@@ -22,7 +22,7 @@ import re
 
 from django.urls import reverse
 from django.http import Http404
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 
 from thrift.transport.TTransport import TTransportException

@@ -27,7 +27,7 @@ import sys
 
 LOG = logging.getLogger(__name__)
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.auth.backend import force_username_case, DesktopBackendBase
 

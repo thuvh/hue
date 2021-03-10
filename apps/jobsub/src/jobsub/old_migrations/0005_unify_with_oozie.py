@@ -1,7 +1,7 @@
 # encoding: utf-8
 import datetime
 from django.contrib.auth.models import User
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from south.db import db
 from south.v2 import DataMigration
 from django.db import models

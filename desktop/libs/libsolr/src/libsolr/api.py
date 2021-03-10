@@ -29,7 +29,7 @@ import sys
 
 from itertools import groupby
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from dashboard.facet_builder import _compute_range_facet
 from dashboard.models import Collection2

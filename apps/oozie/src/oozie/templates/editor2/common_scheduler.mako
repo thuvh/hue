@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
 from desktop.views import _ko
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 <%namespace name="scheduler" file="common_scheduler.inc.mako" />

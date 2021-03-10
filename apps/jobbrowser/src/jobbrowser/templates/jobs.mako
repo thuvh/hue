@@ -17,7 +17,7 @@
   from jobbrowser.views import get_state_link
   from django.template.defaultfilters import urlencode
   from desktop.views import commonheader, commonfooter
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 %>
 <%namespace name="actionbar" file="actionbar.mako" />
 <%namespace name="components" file="jobbrowser_components.mako" />

@@ -21,7 +21,7 @@ import logging
 import math
 import os.path
 
-from django.utils.translation import ugettext_lazy as _t, ugettext as _
+from django.utils.translation import gettext_lazy as _t, gettext as _
 
 from desktop.conf import default_ssl_cacerts, default_ssl_validate, AUTH_PASSWORD as DEFAULT_AUTH_PASSWORD,\
   AUTH_USERNAME as DEFAULT_AUTH_USERNAME

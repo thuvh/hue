@@ -27,7 +27,7 @@ import gunicorn.app.base
 from desktop import conf
 from django.core.management.base import BaseCommand
 from django.core.wsgi import get_wsgi_application
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from gunicorn import util
 from gunicorn.six import iteritems

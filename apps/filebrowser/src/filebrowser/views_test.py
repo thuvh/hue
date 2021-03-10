@@ -42,7 +42,7 @@ from aws.s3.s3test_utils import get_test_bucket
 from azure.conf import is_abfs_enabled, is_adls_enabled
 from django.urls import reverse
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from nose.plugins.attrib import attr
 from nose.plugins.skip import SkipTest
 from nose.tools import assert_true, assert_false, assert_equal, assert_not_equal, assert_raises,\

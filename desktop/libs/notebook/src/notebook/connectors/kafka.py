@@ -19,7 +19,7 @@ from __future__ import absolute_import
 
 import logging
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.i18n import force_unicode
 from kafka.kafka_api import get_topics

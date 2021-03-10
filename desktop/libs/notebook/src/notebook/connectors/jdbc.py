@@ -19,7 +19,7 @@ from builtins import object
 import logging
 import sys
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from beeswax import data_export
 from desktop.lib.i18n import force_unicode, smart_str

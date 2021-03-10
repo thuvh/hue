@@ -37,7 +37,7 @@ from django.template.context import RequestContext
 from django.template.loader import render_to_string as django_render_to_string
 from django.urls import reverse
 from django.utils.http import urlencode # this version is unicode-friendly
-from django.utils.translation import ungettext, ugettext
+from django.utils.translation import ungettext, gettext
 from django.utils.timezone import get_current_timezone
 
 import desktop.conf
@@ -449,26 +449,26 @@ def timesince(d=None, now=None, abbreviate=False, separator=','):
   if since <= 0:
     # d is in the future compared to now, stop processing.
     if abbreviate:
-      return u'0' + ugettext('s')
+      return u'0' + gettext('s')
     else:
-      return u'0 ' + ugettext('seconds')
+      return u'0 ' + gettext('seconds')
   for i, (seconds, name) in enumerate(chunks):
     count = since // seconds
     if count != 0:
       break
   if abbreviate:
-    s = ugettext('%(number)d%(type)s') % {'number': count, 'type': name(count)}
+    s = gettext('%(number)d%(type)s') % {'number': count, 'type': name(count)}
   else:
-    s = ugettext('%(number)d %(type)s') % {'number': count, 'type': name(count)}
+    s = gettext('%(number)d %(type)s') % {'number': count, 'type': name(count)}
   if i + 1 < len(chunks):
     # Now get the second item
     seconds2, name2 = chunks[i + 1]
     count2 = (since - (seconds * count)) // seconds2
     if count2 != 0:
       if abbreviate:
-        s += ugettext('%(separator)s %(number)d%(type)s') % {'separator': separator, 'number': count2, 'type': name2(count2)}
+        s += gettext('%(separator)s %(number)d%(type)s') % {'separator': separator, 'number': count2, 'type': name2(count2)}
       else:
-        s += ugettext('%(separator)s %(number)d %(type)s') % {'separator': separator, 'number': count2, 'type': name2(count2)}
+        s += gettext('%(separator)s %(number)d %(type)s') % {'separator': separator, 'number': count2, 'type': name2(count2)}
   return s
 
 

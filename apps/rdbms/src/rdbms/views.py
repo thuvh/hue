@@ -20,7 +20,7 @@ import json
 
 from functools import wraps
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.urls import reverse
 
 from desktop.context_processors import get_app_name

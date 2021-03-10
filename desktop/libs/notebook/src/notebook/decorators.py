@@ -24,7 +24,7 @@ import re
 from django.forms import ValidationError
 from django.http import Http404
 from django.utils.functional import wraps
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from dashboard.models import extract_solr_exception_message
 from desktop.lib.django_util import JsonResponse

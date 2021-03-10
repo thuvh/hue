@@ -22,7 +22,7 @@ from collections import OrderedDict
 
 from django.test.client import Client
 from django.urls import reverse
-from django.utils.translation import ugettext_lazy as _t, ugettext as _
+from django.utils.translation import gettext_lazy as _t, gettext as _
 
 from desktop import appmanager
 from desktop.conf import is_oozie_enabled, has_connectors, is_cm_managed

@@ -17,7 +17,7 @@
 <%!
 from django.template.defaultfilters import urlencode
 from desktop.views import commonheader, commonfooter
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from filebrowser.conf import ENABLE_EXTRACT_UPLOADED_ARCHIVE
 

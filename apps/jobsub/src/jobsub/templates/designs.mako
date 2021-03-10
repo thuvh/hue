@@ -17,7 +17,7 @@
 import cgi
 import time
 from desktop.views import commonheader, commonfooter
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 <%namespace name="actionbar" file="actionbar.mako" />

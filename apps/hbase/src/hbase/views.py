@@ -24,7 +24,7 @@ import re
 import sys
 import urllib.request, urllib.parse, urllib.error
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.auth.backend import is_admin
 from desktop.lib.django_util import JsonResponse, render

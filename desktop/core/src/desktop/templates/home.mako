@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
   from desktop.views import commonheader, commonfooter, commonshare, _ko
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 
   from desktop.conf import USE_NEW_EDITOR
   use_new_home = USE_NEW_EDITOR.get()

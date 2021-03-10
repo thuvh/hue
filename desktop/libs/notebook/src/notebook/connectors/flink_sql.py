@@ -21,7 +21,7 @@ import logging
 import json
 import posixpath
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.i18n import force_unicode
 from desktop.lib.rest.http_client import HttpClient, RestException

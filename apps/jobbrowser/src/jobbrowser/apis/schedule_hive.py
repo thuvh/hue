@@ -19,7 +19,7 @@ import logging
 
 from datetime import datetime
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from dateutil import parser
 from desktop.lib.scheduler.lib.hive import HiveSchedulerApi

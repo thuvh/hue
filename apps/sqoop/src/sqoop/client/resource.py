@@ -16,7 +16,7 @@
 
 import json
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.python_util import force_dict_to_strings
 from desktop.lib.rest.resource import Resource

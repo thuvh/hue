@@ -16,7 +16,7 @@
 
 <%!
   from desktop.views import commonheader, commonfooter, commonshare, commonimportexport, _ko
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 %>
 
 <%namespace name="macros" file="macros.mako" />

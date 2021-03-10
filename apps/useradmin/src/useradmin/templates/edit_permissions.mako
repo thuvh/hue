@@ -16,7 +16,7 @@
 <%!
 import sys
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import ENABLE_ORGANIZATIONS
 from desktop.views import commonheader, commonfooter

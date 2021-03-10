@@ -31,7 +31,7 @@ import logging
 import time
 
 from django.core.files.uploadhandler import FileUploadHandler, StopFutureHandlers, StopUpload, UploadFileException, SkipFile
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib import fsmanager
 

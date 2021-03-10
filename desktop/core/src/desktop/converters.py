@@ -21,7 +21,7 @@ import logging
 import time
 
 from django.db import transaction
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.exceptions_renderable import PopupException
 from desktop.models import Document, DocumentPermission, DocumentTag, Document2, Directory, Document2Permission

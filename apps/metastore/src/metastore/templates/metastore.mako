@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
 from django.utils.html import escape
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop import conf
 from desktop.conf import USE_NEW_EDITOR

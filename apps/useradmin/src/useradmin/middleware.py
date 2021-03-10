@@ -27,7 +27,7 @@ from django.contrib import messages
 from django.contrib.sessions.models import Session
 from django.db import DatabaseError
 from django.db.models import Q
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.utils.deprecation import MiddlewareMixin
 
 from desktop.auth.views import dt_logout

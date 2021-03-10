@@ -15,7 +15,7 @@
 ## limitations under the License.
 
 <%!
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.auth.backend import is_admin, is_hue_admin
 from desktop.conf import METRICS, has_connectors, ANALYTICS

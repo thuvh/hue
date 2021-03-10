@@ -27,7 +27,7 @@ import re
 from django.db import connection, models
 from django.urls import reverse
 from django.utils.html import escape
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.auth.backend import is_admin
 from desktop.conf import REST_CONN_TIMEOUT

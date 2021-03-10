@@ -24,7 +24,7 @@ from datetime import datetime
 from desktop.lib.exceptions_renderable import PopupException
 from desktop.lib.python_util import current_ms_from_utc
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from jobbrowser.apis.base_api import Api
 

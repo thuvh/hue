@@ -24,7 +24,7 @@ import re
 import sys
 
 from django.http import HttpResponseBadRequest
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.django_util import JsonResponse
 from desktop.lib.rest.http_client import HttpClient, RestException

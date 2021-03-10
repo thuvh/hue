@@ -19,7 +19,7 @@ import json
 import logging
 
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from hadoop.yarn import resource_manager_api
 
 from desktop.lib.django_util import JsonResponse

@@ -19,7 +19,7 @@ import os.path
 
 from desktop.lib.conf import Config
 from desktop.lib import paths
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 LOCAL_DATA_DIR = Config(

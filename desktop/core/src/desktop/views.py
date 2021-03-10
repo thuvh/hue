@@ -39,7 +39,7 @@ from django.http import HttpResponse
 from django.http.response import StreamingHttpResponse
 from django.urls import reverse
 from django.shortcuts import redirect
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 from configobj import ConfigObj, get_extra_values, ConfigObjError
 from wsgiref.util import FileWrapper

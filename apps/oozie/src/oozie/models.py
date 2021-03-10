@@ -40,7 +40,7 @@ from django.contrib.contenttypes.fields import GenericRelation
 from django.contrib.contenttypes.models import ContentType
 from django.forms.models import inlineformset_factory
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext as _, ugettext_lazy as _t
+from django.utils.translation import gettext as _, gettext_lazy as _t
 import django.utils.timezone as dtz
 
 from desktop.auth.backend import is_admin

@@ -23,7 +23,7 @@ import select
 import socket
 import sys
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from desktop import conf
 from desktop.lib.i18n import smart_str
 

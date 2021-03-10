@@ -18,7 +18,7 @@
 import re
 import socket
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 # Pattern to replace with hostname
 HOSTNAME_PATTERN = '_HOST'

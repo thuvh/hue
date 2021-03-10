@@ -21,7 +21,7 @@ import os
 from collections import deque
 
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from mako.lookup import TemplateLookup
 
 from desktop.models import Document2

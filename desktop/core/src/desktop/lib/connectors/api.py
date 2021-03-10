@@ -18,7 +18,7 @@
 import json
 import logging
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from useradmin.models import update_app_permissions
 from notebook.conf import config_validator, _connector_to_iterpreter

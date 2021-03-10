@@ -20,7 +20,7 @@ import json
 import logging
 import socket
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from sqoop import client, conf
 from sqoop.api.decorators import get_submission_or_exception

@@ -21,7 +21,7 @@ import logging
 from django.db import connection, models, transaction
 from django.db.models import Q
 from django.db.models.query import QuerySet
-from django.utils.translation import ugettext as _, ugettext_lazy as _t
+from django.utils.translation import gettext as _, gettext_lazy as _t
 
 from useradmin.organization import _fitered_queryset, get_user_request_organization
 

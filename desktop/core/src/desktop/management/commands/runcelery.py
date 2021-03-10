@@ -24,7 +24,7 @@ from desktop.lib.daemon_utils import drop_privileges_if_necessary
 
 from django.core.management.base import BaseCommand
 from django.utils import autoreload
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 SERVER_HELP = r"""
   Run celery worker.

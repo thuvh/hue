@@ -23,7 +23,7 @@ import numbers
 import os
 import shutil
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 import tablib
 
 from desktop.lib.exceptions_renderable import PopupException

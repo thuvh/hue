@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
 from desktop.views import commonheader, commonfooter
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 <%namespace name="layout" file="layout.mako" />

@@ -18,7 +18,7 @@
 import json
 
 from django.http import HttpResponseBadRequest, HttpResponseRedirect
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_GET
 
 from desktop.lib.django_util import JsonResponse

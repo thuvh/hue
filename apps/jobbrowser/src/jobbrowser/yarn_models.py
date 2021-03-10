@@ -29,7 +29,7 @@ import urllib.parse
 
 from lxml import html
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.exceptions_renderable import PopupException
 from desktop.lib.rest.http_client import HttpClient

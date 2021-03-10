@@ -17,7 +17,7 @@
 <%!
 from desktop.lib.i18n import smart_unicode
 from desktop.views import commonheader, commonfooter
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from desktop.auth.backend import is_admin
 %>
 

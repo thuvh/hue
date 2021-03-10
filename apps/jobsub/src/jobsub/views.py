@@ -29,7 +29,7 @@ from builtins import str
 import logging
 import time as py_time
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop import appmanager
 from desktop.lib.django_util import render, render_json

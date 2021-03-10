@@ -19,7 +19,7 @@
   import sys
   from desktop.lib.paths import SAFE_CHARACTERS_URI_COMPONENTS
   from desktop.views import commonheader, commonfooter
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 
   from oozie.conf import ENABLE_V2
 

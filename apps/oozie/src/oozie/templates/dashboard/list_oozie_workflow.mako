@@ -18,7 +18,7 @@
 <%!
   import sys
   from desktop.views import commonheader, commonfooter
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
   from oozie.forms import ParameterForm
   from six import iteritems
 

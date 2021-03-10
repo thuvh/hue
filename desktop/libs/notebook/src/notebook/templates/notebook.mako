@@ -18,7 +18,7 @@
   from desktop.conf import ENABLE_CONNECTORS
   from desktop.views import commonfooter, commonshare
 
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 %>
 
 <%namespace name="configKoComponents" file="/config_ko_components.mako" />

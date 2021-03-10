@@ -19,7 +19,7 @@
   from beeswax import conf as beeswax_conf
   from desktop import conf
   from desktop.conf import USE_NEW_EDITOR
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
   from notebook.conf import ENABLE_QUERY_BUILDER
 %>
 

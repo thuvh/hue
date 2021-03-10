@@ -22,7 +22,7 @@ import logging
 import os
 
 from django.core.management.base import BaseCommand
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from useradmin.models import install_sample_user
 

@@ -21,7 +21,7 @@ from django.core.management.base import BaseCommand
 
 from desktop.lib.paths import get_build_dir
 from hadoop.fs import fs_for_testing
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 class Command(BaseCommand):
   """Creates file system for testing."""

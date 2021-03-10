@@ -15,7 +15,7 @@
 # limitations under the License.import logging
 
 from builtins import object
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 
 class Argument(object):

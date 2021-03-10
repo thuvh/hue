@@ -16,7 +16,7 @@
 # limitations under the License.
 
 from builtins import object
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.exceptions_renderable import PopupException
 from desktop.lib.i18n import smart_unicode

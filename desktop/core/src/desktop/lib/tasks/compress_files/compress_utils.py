@@ -21,7 +21,7 @@ import json
 import sys
 
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import DEFAULT_USER
 from desktop.lib.paths import get_desktop_root, SAFE_CHARACTERS_URI_COMPONENTS, SAFE_CHARACTERS_URI

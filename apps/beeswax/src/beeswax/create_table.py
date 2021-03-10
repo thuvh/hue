@@ -29,7 +29,7 @@ import re
 
 from django.urls import reverse
 from django.http import QueryDict
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from aws.s3.s3fs import S3FileSystemException
 from desktop.context_processors import get_app_name

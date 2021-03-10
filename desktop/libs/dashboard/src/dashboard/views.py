@@ -21,7 +21,7 @@ import re
 
 from django.urls import reverse
 from django.utils.html import escape
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import USE_NEW_EDITOR
 from desktop.lib.django_util import JsonResponse, render

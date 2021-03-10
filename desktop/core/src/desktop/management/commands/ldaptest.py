@@ -36,7 +36,7 @@ import sys
 
 from desktop.conf import LDAP
 from django.core.management.base import BaseCommand
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from useradmin import ldap_access
 
 LOG = logging.getLogger(__name__)

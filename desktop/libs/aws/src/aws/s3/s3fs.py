@@ -31,7 +31,7 @@ from boto.s3.connection import Location
 from boto.s3.key import Key
 from boto.s3.prefix import Prefix
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from aws import s3
 from aws.conf import get_default_region, get_locations, PERMISSION_ACTION_S3

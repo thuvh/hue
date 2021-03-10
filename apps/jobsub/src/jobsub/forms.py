@@ -23,7 +23,7 @@ from django import forms
 from desktop.lib.django_forms import MultiForm
 from jobsub import models
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 LOG = logging.getLogger(__name__)
 

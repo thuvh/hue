@@ -16,7 +16,7 @@
 # limitations under the License.
 
 from django import forms
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 
 class SQLForm(forms.Form):

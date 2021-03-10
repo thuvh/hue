@@ -43,7 +43,7 @@ from django.shortcuts import redirect
 from functools import partial
 from django.utils.http import http_date
 from django.utils.html import escape
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from aws.s3.s3fs import S3FileSystemException, S3ListAllBucketsException
 from desktop import appmanager

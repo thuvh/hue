@@ -20,7 +20,7 @@ import logging
 from datetime import datetime
 from dateutil import parser
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.models import Document2
 from notebook.api import _get_statement

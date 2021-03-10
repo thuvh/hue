@@ -21,7 +21,7 @@ import logging
 import os
 import sys
 
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 from desktop.lib.conf import Config
 from libsolr import conf as libsolr_conf

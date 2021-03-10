@@ -17,7 +17,7 @@
     import sys
     import time
     from django.template.defaultfilters import timesince
-    from django.utils.translation import ugettext as _
+    from django.utils.translation import gettext as _
 
     from desktop.views import commonheader, commonfooter
 

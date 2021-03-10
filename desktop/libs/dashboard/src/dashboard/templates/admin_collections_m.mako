@@ -16,7 +16,7 @@
 
 <%!
   from desktop.views import commonheader_m, commonfooter_m
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 %>
 
 <%namespace name="common_admin_collections" file="common_admin_collections.mako" />

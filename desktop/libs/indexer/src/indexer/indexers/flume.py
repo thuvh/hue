@@ -19,7 +19,7 @@ import logging
 import os
 
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from libzookeeper.conf import zkensemble
 from indexer.conf import config_morphline_path

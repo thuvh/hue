@@ -40,7 +40,7 @@ from django.forms.utils import ErrorList
 from django.http import HttpResponse
 from django.shortcuts import redirect
 from django.utils.encoding import smart_str
-from django.utils.translation import get_language, ugettext as _
+from django.utils.translation import get_language, gettext as _
 
 import desktop.conf
 from desktop.auth.backend import is_admin

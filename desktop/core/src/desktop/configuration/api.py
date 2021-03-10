@@ -21,7 +21,7 @@ import logging
 from django.contrib.auth.models import Group, User
 from django.db import transaction
 from django.db.models import Q
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.views.decorators.http import require_POST
 
 from desktop.lib.django_util import JsonResponse

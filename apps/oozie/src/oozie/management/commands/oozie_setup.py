@@ -23,7 +23,7 @@ from lxml import etree
 from django.core import management
 from django.core.management.base import BaseCommand
 from django.db import transaction
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.conf import USE_NEW_EDITOR
 from desktop.models import Directory, Document, Document2, Document2Permission

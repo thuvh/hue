@@ -24,7 +24,7 @@ import json
 import threading
 import uuid
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from beeswax.design import hql_query
 from beeswax.server import dbms

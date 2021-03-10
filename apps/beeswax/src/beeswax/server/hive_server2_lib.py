@@ -23,7 +23,7 @@ import sys
 
 from operator import itemgetter
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from TCLIService import TCLIService
 from TCLIService.ttypes import TOpenSessionReq, TGetTablesReq, TFetchResultsReq, TStatusCode, TGetResultSetMetadataReq, \
   TGetColumnsReq, TTypeId, TExecuteStatementReq, TGetOperationStatusReq, TFetchOrientation, \

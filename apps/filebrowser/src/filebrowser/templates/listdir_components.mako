@@ -19,7 +19,7 @@ import datetime
 from django.template.defaultfilters import urlencode, stringformat, filesizeformat, date, time, escape
 from desktop.lib.django_util import reverse_with_get, extract_field_data
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from filebrowser.conf import ENABLE_EXTRACT_UPLOADED_ARCHIVE
 %>

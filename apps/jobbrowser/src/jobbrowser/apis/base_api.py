@@ -20,7 +20,7 @@ import logging
 import posixpath
 import re
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from hadoop.fs.hadoopfs import Hdfs
 from desktop.lib.exceptions_renderable import PopupException

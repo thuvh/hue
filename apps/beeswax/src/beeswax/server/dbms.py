@@ -25,7 +25,7 @@ import json
 
 from django.core.cache import caches
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from kazoo.client import KazooClient
 
 from desktop.conf import CLUSTER_ID, has_connectors

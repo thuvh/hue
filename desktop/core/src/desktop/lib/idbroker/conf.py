@@ -19,7 +19,7 @@ import logging
 
 from hadoop.core_site import get_conf
 
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 LOG = logging.getLogger(__name__)
 

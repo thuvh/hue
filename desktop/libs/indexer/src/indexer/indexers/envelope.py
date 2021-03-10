@@ -19,7 +19,7 @@ import logging
 import os
 
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from hadoop.fs.hadoopfs import Hdfs
 from indexer.conf import CONFIG_JARS_LIBS_PATH, config_morphline_path

@@ -64,7 +64,7 @@ import textwrap
 from string import Template
 
 from django.core.cache import caches
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from sqlalchemy import create_engine, inspect, Table, MetaData
 from sqlalchemy.exc import OperationalError, UnsupportedCompilationError, CompileError
 

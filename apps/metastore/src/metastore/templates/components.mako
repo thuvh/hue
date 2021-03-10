@@ -15,7 +15,7 @@
 ## limitations under the License.
 <%!
   from desktop.lib.django_util import extract_field_data
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 %>
 
 <%def name="menubar(is_embeddable=False)">

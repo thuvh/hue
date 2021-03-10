@@ -15,7 +15,7 @@
 ## limitations under the License.
 
 <%!
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.views import commonheader, commonfooter, _ko, commonshare
 from desktop import conf

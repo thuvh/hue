@@ -25,7 +25,7 @@ import itertools
 import logging
 import sys
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib import i18n
 

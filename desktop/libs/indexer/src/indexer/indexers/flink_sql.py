@@ -19,7 +19,7 @@ import sys
 import uuid
 
 from django.urls import reverse
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from notebook.models import make_notebook
 from useradmin.models import User

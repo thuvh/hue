@@ -20,7 +20,7 @@ import sys
 
 import beeswax.hive_site
 
-from django.utils.translation import ugettext_lazy as _t, ugettext as _
+from django.utils.translation import gettext_lazy as _t, gettext as _
 
 from desktop.conf import has_connectors
 from desktop.lib.exceptions import StructuredThriftTransportException

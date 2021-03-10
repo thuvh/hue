@@ -24,7 +24,7 @@ from django.contrib.auth.forms import AuthenticationForm as DjangoAuthentication
 from django.forms import CharField, TextInput, PasswordInput, ChoiceField, ValidationError, Form
 from django.utils.safestring import mark_safe
 from django.utils.encoding import smart_str
-from django.utils.translation import ugettext_lazy as _t, ugettext as _
+from django.utils.translation import gettext_lazy as _t, gettext as _
 
 from desktop import conf
 from useradmin.hue_password_policy import hue_get_password_validators

@@ -17,7 +17,7 @@
 <%!
 from builtins import range
 from desktop.views import _ko
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 <%namespace name="utils" file="../utils.inc.mako" />

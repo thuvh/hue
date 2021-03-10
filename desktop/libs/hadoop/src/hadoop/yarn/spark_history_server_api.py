@@ -28,7 +28,7 @@ import urllib.parse
 from desktop.lib.exceptions_renderable import PopupException
 from desktop.lib.rest.http_client import HttpClient
 from desktop.lib.rest.resource import Resource
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from hadoop import cluster
 from hadoop.yarn.clients import get_log_client
 

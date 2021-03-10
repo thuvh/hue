@@ -16,7 +16,7 @@
 <%
   from jobbrowser.views import get_state_link
   from desktop.views import commonheader, commonfooter
-  from django.utils.translation import ugettext as _
+  from django.utils.translation import gettext as _
 %>
 
 <%namespace name="comps" file="jobbrowser_components.mako" />

@@ -34,7 +34,7 @@ from urllib.parse import quote_plus
 
 from django.http import HttpResponseRedirect
 from django.utils.functional import wraps
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 from django.urls import reverse
 
 from desktop.auth.backend import is_admin

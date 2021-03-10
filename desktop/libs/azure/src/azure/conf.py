@@ -17,7 +17,7 @@ from __future__ import absolute_import
 
 import logging
 
-from django.utils.translation import ugettext_lazy as _t
+from django.utils.translation import gettext_lazy as _t
 
 from desktop.lib.conf import Config, UnspecifiedConfigSection, ConfigSection, coerce_password_from_script
 from desktop.lib.idbroker import conf as conf_idbroker

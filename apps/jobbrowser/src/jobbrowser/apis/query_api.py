@@ -23,7 +23,7 @@ import re
 import time
 from datetime import datetime
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib import export_csvxls
 from libanalyze import analyze as analyzer, rules

@@ -21,7 +21,7 @@ import re
 import thrift
 
 from django.utils.encoding import smart_str, force_unicode
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 import hadoop.cluster
 

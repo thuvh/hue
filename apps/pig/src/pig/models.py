@@ -23,7 +23,7 @@ import posixpath
 from django.db import models
 from django.contrib.contenttypes.fields import GenericRelation
 from django.urls import reverse
-from django.utils.translation import ugettext as _, ugettext_lazy as _t
+from django.utils.translation import gettext as _, gettext_lazy as _t
 
 from desktop.auth.backend import is_admin
 from desktop.lib.exceptions_renderable import PopupException

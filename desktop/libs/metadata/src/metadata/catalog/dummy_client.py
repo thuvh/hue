@@ -18,7 +18,7 @@
 
 import logging
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from metadata.catalog.base import Api
 

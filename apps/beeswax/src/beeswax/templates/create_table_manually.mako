@@ -16,7 +16,7 @@
 <%!
 from desktop import conf
 from desktop.views import commonheader, commonfooter
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 %>
 
 <%namespace name="comps" file="beeswax_components.mako" />

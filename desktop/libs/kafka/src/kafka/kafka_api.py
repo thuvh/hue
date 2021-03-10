@@ -19,7 +19,7 @@
 import json
 import logging
 
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 
 from desktop.lib.django_util import JsonResponse
 from desktop.lib.i18n import force_unicode
